@@ -22,7 +22,7 @@ const basename = new URL('../', import.meta.url).pathname.replace(/\/$/, '');
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/analytiq-labs">
       <App />
     </BrowserRouter>
   </React.StrictMode>
