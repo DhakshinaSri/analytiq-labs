@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 // location: https://user.github.io/, https://user.github.io/any-repo-name/,
 // a custom domain, or a plain static server. No repo name needs to be configured.
 export default defineConfig({
-  base: '/',
+  base: './',
   plugins: [react()],
   build: { outDir: 'dist', sourcemap: false },
 });
